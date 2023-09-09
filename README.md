@@ -41,6 +41,8 @@
 |SciBERT+BiLSTM (cascade)|86.22|86.76|86.49|
 |SciBERT+BiLSTM (cascade)+data_aug|86.82|87.18|**87.00**|
 
+
+
 Evaluation on SciERC and TDM dataset
 
 |**Dataset**|**Authors**|**Model**|**P**|**R**|**F1**|
@@ -56,7 +58,7 @@ Evaluation on SciERC and TDM dataset
 
 ### 2. Entity normalization
 
-    "entity-normalization.ipynb": Normalizing entities based on edit distance similarity and hierarchical clustering. The relevant resources can be found in the "data" folder.
+    - "entity-normalization.ipynb": Normalizing entities based on edit distance similarity and hierarchical clustering. The relevant resources can be found in the "data" folder.
 
     A total of 534,500 entities were extracted, and the number of entities after normalization was 268,392.  Subsequently, we filtered out entities with an annual frequency of less than 5, and ultimately obtained 37,624 valid technology-related entities. Each valid entity corresponds to a cluster in the clustering result. To verify the effectiveness of entity normalization, we randomly selected 1000 pairs of entities from these entity clusters and manually judged whether they belonged to the same entity. The precision metric, calculated based on the human reviews and the normalization results, was 91.30.
 
@@ -64,7 +66,9 @@ Evaluation on SciERC and TDM dataset
 
 ### 3. z-score calculation
 
-    "z-score_calculation .ipynb": After completing entity normalization, the co-occurrence networks are constructed based on papers for each year, and the z-scores of entities are calculated to measure their impact.The relevant resources can be found in the "data" folder.
+    1
+
+    - "z-score_calculation .ipynb": After completing entity normalization, the co-occurrence networks are constructed based on papers for each year, and the z-scores of entities are calculated to measure their impact.The relevant resources can be found in the "data" folder.
 
     Entities with z-scores exceeding 2.5 are defined as high-impact technology-related entities. Since 2001, 179 high-impac new entities have emerged in the NLP field, and their complete list can be found in the file "./data/top-ents.csv".
 
