@@ -26,9 +26,9 @@
 
 - **Model evaluation**
 
-    Evaluation of models on our annotated dataset
+Evaluation of models on our annotated dataset
 
-|**Model**|**P**|**R**|**F1**|
+|Model|P|R|F1|
 |-|-|-|-|
 |BERT|83.64|85.92|84.77|
 |BERT+CRF|84.10|84.45|84.28|
@@ -39,9 +39,7 @@
 |SciBERT|85.95|86.13|86.04|
 |SciBERT+CRF|83.53|87.39|85.42|
 |SciBERT+BiLSTM (cascade)|86.22|86.76|86.49|
-|SciBERT+BiLSTM (cascade)+data_aug|86.82|87.18|**87.00**|
-
-
+|SciBERT+BiLSTM (cascade)+data_aug|86.82|87.18|87.00|
 
 Evaluation on SciERC and TDM dataset
 
@@ -58,29 +56,23 @@ Evaluation on SciERC and TDM dataset
 
 ### 2. Entity normalization
 
-    - "entity-normalization.ipynb": Normalizing entities based on edit distance similarity and hierarchical clustering. The relevant resources can be found in the "data" folder.
+"entity-normalization.ipynb": Normalizing entities based on edit distance similarity and hierarchical clustering. The relevant resources can be found in the "data" folder.
 
-    A total of 534,500 entities were extracted, and the number of entities after normalization was 268,392.  Subsequently, we filtered out entities with an annual frequency of less than 5, and ultimately obtained 37,624 valid technology-related entities. Each valid entity corresponds to a cluster in the clustering result. To verify the effectiveness of entity normalization, we randomly selected 1000 pairs of entities from these entity clusters and manually judged whether they belonged to the same entity. The precision metric, calculated based on the human reviews and the normalization results, was 91.30.
-
-    ---
+A total of 534,500 entities were extracted, and the number of entities after normalization was 268,392.  Subsequently, we filtered out entities with an annual frequency of less than 5, and ultimately obtained 37,624 valid technology-related entities. Each valid entity corresponds to a cluster in the clustering result. To verify the effectiveness of entity normalization, we randomly selected 1000 pairs of entities from these entity clusters and manually judged whether they belonged to the same entity. The precision metric, calculated based on the human reviews and the normalization results, was 91.30.
 
 ### 3. z-score calculation
 
-    1
+"z-score_calculation .ipynb": After completing entity normalization, the co-occurrence networks are constructed based on papers for each year, and the z-scores of entities are calculated to measure their impact.The relevant resources can be found in the "data" folder.
 
-    - "z-score_calculation .ipynb": After completing entity normalization, the co-occurrence networks are constructed based on papers for each year, and the z-scores of entities are calculated to measure their impact.The relevant resources can be found in the "data" folder.
+Entities with z-scores exceeding 2.5 are defined as high-impact technology-related entities. Since 2001, 179 high-impac new entities have emerged in the NLP field, and their complete list can be found in the file "./data/top-ents.csv".
 
-    Entities with z-scores exceeding 2.5 are defined as high-impact technology-related entities. Since 2001, 179 high-impac new entities have emerged in the NLP field, and their complete list can be found in the file "./data/top-ents.csv".
+The top 5 entities for each type are as follows:
 
-    The top 5 entities for each type are as follows:
+Method: BERT, Transformer, LSTM, Attention Mechanism, Adam
 
-    Method: BERT, Transformer, LSTM, Attention Mechanism, Adam
+Dataset: Wikipedia, MNLI, SQuAD, Twitter, SST-2
 
-    Dataset: Wikipedia, MNLI, SQuAD, Twitter, SST-2
+Metric: BLEU, Cross-Entropy, ROUGE, Fluency, Standard Deviation
 
-    Metric: BLEU, Cross-Entropy, ROUGE, Fluency, Standard Deviation
-
-    Tool: PyTorch, Moses, GIZA++, TensorFlow, Stanford Parser
-
-
+Tool: PyTorch, Moses, GIZA++, TensorFlow, Stanford Parser
 
