@@ -1,0 +1,561 @@
+nmt	neural machine translation
+cnn	convolutional neural network
+cnns	convolutional neural network
+r cnn	region convolutional neural network
+mrr	mean reciprocal rank	mean replacement rate
+rnn	recurrent neural network	recursive neural network
+rnns	recurrent neural network	recursive neural network
+birnn	bidirectional recurrent neural network
+bi rnn	bidirectional recurrent neural network
+brnn	bidirectional recurrent neural network
+map	mean average precision	maximum a posteriori	macro average precision
+lda	latent dirichlet allocation	linear discriminant analysis
+pmi	pointwise mutual information
+sgd	stochastic gradient descent	schema guide dialogue
+rl	reinforcement learning	rouge-l	relevance
+smt	statistical machine translation
+pb smt	phrase base statistical machine translation
+crf	conditional random field
+crfs	conditional random field
+lstm	long short term memory
+lstms	long short term memory
+shortterm	short term
+svm	support vector machine
+svms	support vector machine
+mlp	multi layer perceptron
+multilayer	multi layer
+mlps	multi layer perceptron
+svd	singular value decomposition
+amt	amazon mechanical turk
+gru	gate recurrent unit
+grus	gate recurrent unit
+bi gru	bidirectional gate recurrent unit
+bi grus	bidirectional gate recurrent unit
+ptb	penn treebank	Phrase Table Baseline
+em	exact match	expectation maximization
+mle	maximum likelihood estimation
+hmm	hide markov model
+hmms	hide markov model
+ilp	integer linear programming	inductive logic programming
+lsa	latent semantic analysis	Latent Self attention
+mlm	mask language modeling
+mlms	mask language modeling
+bow	bag of word
+lm	language model
+lms	language model
+bnc	british national corpus
+wer	word error rate
+wers	word error rate
+bpe	byte pair encoding
+mae	mean absolute error	mean average error
+mtl	multi  task learning	meta transfer learning
+mert	minimum error rate training
+lr	logistic regression	linear regression
+gcn	graph convolutional network
+gcns	graph convolutional network
+rst	rhetorical structure theory	news text domain
+rst dt	rhetorical structure theory discourse treebank
+ccg	combinatory categorial grammar
+ccgs	combinatory categorial grammar
+srl	semantic role labeling	statistical relational learning
+cca	canonical correlation analysis	continuous canonical arrangement
+pca	principal component analysis
+vae	variational autoencoder
+vaes	variational autoencoder
+amr	abstract meaning representation
+amrs	abstract meaning representation
+seq 2 seq	sequence to sequence
+seq to seq	sequence to sequence
+s 2 s	sequence to sequence
+ppl	perplexity
+mse	mean square error
+uas	unlabeled attachment score
+ner	name entity recognition
+kl	kullback leibler
+kldivergence	kullback leibler divergence
+wsj	wall street journal
+mdp	markov decision process
+mdps	markov decision process
+pdtb	penn discourse treebank
+dnn	deep neural network
+dnns	deep neural network
+asr	automatic speech recognition	attack success rate
+aer	alignment error rate
+dag	direct acyclic graph
+dags	direct acyclic graph
+kd	knowledge distillation	kernel density
+uml	University of Massachusetts Lowell
+umls	unify medical language system
+kg	knowledge graph
+kgs	knowledge graph
+vsm	vector space model
+vsms	vector space model
+mi	mutual information	motivational interview
+sst	stanford sentiment treebank	subset tree	Standard Speaking Test
+gnn	graph neural network
+gnns	graph neural network
+las	label attachment score
+bilstm	bidirectional long short term memory
+bilstms	bidirectional long short term memory
+gan	generative adversarial network	Graph Attention Network
+gans	generative adversarial network
+ndcg	normalize discount cumulative gain
+absa	aspect base sentiment analysis
+pcfg	probabilistic context free grammar
+pcfgs	probabilistic context free grammar
+mds	multi document summarization	multi dimensional scaling
+nyt	new york times
+gat	graph attention network
+gats	graph attention network
+lcs	long common subsequence	Longest Common Substring
+tf idf	term frequency inverse document frequency
+idf	inverse document frequency
+tf	term frequency	TextFooler
+crp	chinese restaurant process
+crps	chinese restaurant process
+cfg	context free grammar
+mturk	amazon mechanical turk
+ap	average precision	average proportion	affinity propagation
+nb	naive baye
+na ¨ ıve	naive
+ud	universal dependency
+al	active learning	average lagging	adversarial learning
+cer	character error rate	classification error rate	Context Enhanced Reconstruction
+gec	grammatical error correction
+ds	distant supervision	Dawid Skene	Distributional Similarity
+dp	dynamic programming	dirichlet process	differential privacy	double propagation	dependency parsing
+scfg	synchronous context free grammar
+svr	support vector regression
+nsp	next sentence prediction
+relu	rectify linear unit
+ctb	chinese treebank
+ppdb	paraphrase database
+mcmc	markov chain monte carlo
+mbert	multilingual BERT
+ffn	feed forward
+ffns	feed forward
+ace	automatic content extraction
+mdl	minimum description length	Multi Domain learning
+scl	structural correspondence learning	supervised contrastive learning
+gmm	gaussian mixture model
+gmms	gaussian mixture model
+ml	machine learning	maximum likelihood
+ctc	connectionist temporal classification	cross task consistency
+nce	noise contrastive estimation
+nmf	non negative matrix factorization
+elbo	evidence lower bound
+squad	stanford question answer dataset
+bli	bilingual lexicon induction
+mira	margin infuse relaxed algorithm
+mbr	minimum baye risk
+liwc	linguistic inquiry and word count
+acc	accuracy
+plsa	probabilistic latent semantic analysis
+lsh	locality sensitive hashing
+use	universal sentence encoder
+wmd	word mover distance
+lsi	latent semantic indexing
+nq	natural question
+dst	dialogue state tracking
+bert	bidirectional encoder representation from transformer
+bertbase	bidirectional encoder representation from transformer
+bertlarge	bidirectional encoder representation from transformer
+rf	random forest	relevance feedback
+iaa	inter annotator agreement
+nli	natural language inference
+multinli	Multi Genre natural language inference
+ter	translation edit rate	translation error rate
+ig	information gain	integrate gradient
+maxent	maximum entropy
+max ent	maximum entropy
+me	maximum entropy
+snli	stanford natural language inference
+ce	cross entropy	contrastive estimation
+nmi	normalize mutual information
+slu	spoken language understanding
+itg	inversion transduction grammar
+nll	negative log likelihood
+ssl	semi supervised learning	self supervise learning
+mmd	maximum mean discrepancy
+rmse	root mean square error
+hpsg	head drive phrase structure grammar
+hpsgs	head drive phrase structure grammar
+mmr	maximal marginal relevance
+weat	word embed association test
+nn	neural network	Nearest Neighbor
+nns	neural network	Nearest Neighbor Search
+tac	text analysis conference
+mmi	maximum mutual information
+hdp	hierarchical dirichlet process
+hdps	hierarchical dirichlet process
+npmi	normalize pointwise mutual information
+sts	semantic textual similarity
+sts b	semantic textual similarity benchmark
+dmv	dependency model with valence
+tdt	topic detection and tracking	temporal dependency tree
+jsd	jensen shannon divergence	jensen shannon distance
+mln	markov logic network
+ocr	optical character recognition
+ipa	international phonetic alphabet
+ppmi	positive pointwise mutual information
+pos	part of speech	Path overlap score
+rbf	radial basis function
+han	hierarchical attention
+hans	hierarchical attention
+bil stms	bidirectional long short term memory network
+qqp	quora question pair	Quora Question Paraphrase
+qwk	quadratic weight kappa
+cola	corpus of linguistic acceptability
+mrt	minimum risk training	mean response time
+ffnn	feed forward
+mr	mean rank	movie review
+bt	back translation	Bradley Terry
+mrpc	microsoft research paraphrase corpus
+anova	analysis of variance
+ari	adjust rand index	automated readability index
+wn	wordnet
+mha	multi head attention
+csls	cross domain similarity local scaling
+erg	english resource grammar
+mrc	machine reading comprehension	masked region classification
+esim	enhance sequential inference model
+w 2 v	word2vec
+cbow	continuous bag of word
+cfgs	context free grammar
+ptk	partial tree kernel	Propagation Tree Kernel
+dsm	distributional semantic model	distributional similarity measures
+dsms	distributional semantic model
+nltk	natural language toolkit
+openie	open information extraction
+ldc	linguistic data consortium	Latent Descriptor Clustering
+scfgs	synchronous context free grammar
+lp	label propagation	linear programming	label powerset
+tacc	texas advanced computing center
+iou	intersection over union
+pr	posterior regularization	PageRank	precision	perplexities	prover
+sbert	Sentence BERT
+s bert	Sentence BERT
+ewc	elastic weight consolidation
+cvae	conditional variational autoencoder
+cvaes	conditional variational autoencoder
+rnnlm	recurrent neural network language model
+rnnlms	recurrent neural network language model
+wal	world atlas of language structure
+wals	world atlas of language structure
+psl	probabilistic soft logic	Pittsburgh subjectivity lexicon
+pra	path rank algorithm	Phrase Resolution Algorithm
+hac	hierarchical agglomerative clustering	human annotated corpus
+wsc	winograd schema challenge
+tlm	translation language modeling	Tag Language Model	Transformer Language Model
+emd	earth mover distance	Entity Mention Detection
+kbp	knowledge base population
+dqn	deep q network
+gp	gaussian process	graph propagation	generalized procrustes
+gps	gaussian process	General Problem Solver
+eer	equal error rate	slot error rate
+stsg	synchronous tree substitution grammar
+stsgs	synchronous tree substitution grammar
+lfg	lexical functional grammar
+memm	maximum entropy markov model
+memms	maximum entropy markov model
+btm	biterm topic model
+tts	text to speech
+tl	transfer learning	Template Language	Tagalog
+nucle	national university of singapore corpus of learner english
+nus	national university of singapore
+mip	metaphor identification procedure	multiple instance pooling	Mixed Integer Program
+kge	knowledge graph embedding
+grl	gradient reversal layer
+rsa	representational similarity analysis	Rational Speech Act
+mst	maximum spanning tree	minimum spanning tree	Minimum Sub Tree
+cnf	chomsky normal form	conjunctive normal form
+te	textual entailment	transformer encoder	triple extractor
+tag	tree adjoining grammar
+tags	tree adjoining grammar
+duc	document understanding conference
+mlns	markov logic network
+ntn	neural tensor network
+knn	k near neighbor
+knns	k near neighbor
+k nn	k near neighbor
+nas	neural architecture search
+cf	collaborative filtering	Catastrophic Forgetting
+woz	wizard of oz
+maml	model agnostic meta learning
+bce	binary cross entropy
+nlg	natural language generation
+atb	arabic treebank
+mcc	matthew correlation coefficient	Multi Class Classification
+per	phoneme error rate	Phone Error Rate	position independent word error rate
+mrs	minimal recursion semantic	machine reading at scale	max rule sum
+esa	explicit semantic analysis
+open ie	open information extraction
+clc	cambridge learner corpus	Chinese Learner Corpus	class label correlation
+ece	Emotion cause extraction
+m bert	multilingual BERT
+cl	curriculum learning	contrastive learning
+bptt	back propagation through time
+plm	pretrained language model
+plms	pretrained language model
+ntm	neural topic model	neural Turing machine
+sgn	set generation network
+sgns	skip gram with negative sampling
+pyp	pitman yor process
+stk	syntactic tree kernel
+btg	bracket transduction grammar
+il	imitation learning	Inverted List
+pcc	pearson correlation coefficient	program consistency checker	Probabilistic Classifier Chain
+auc	area under the curve
+cv	cross validation	Confusion vector	Common Voice	Clustered vocabulary
+vat	virtual adversarial training
+oie	open information extraction
+vg	visual genome	vision guided
+fn	framenet
+fol	first order logic
+glue	general language understanding evaluation
+bp	belief propagation	brevity penalty	back propagation
+lmi	local mutual information	Lexicographer Mutual Information
+pbsmt	phrase base statistical machine translation
+js	jensen shannon	Jaccard Similarity	joint scoring
+pomdp	partially observable markov decision process
+bn	broadcast news	Batch Normalization	Bayesian Network
+mrf	markov random field	Misinfo Reaction Frames
+ot	optimal transport	optimality theory	Operation Tree
+elmo	embedding from language model
+dfs	depth first search
+ewt	english web treebank
+vmf	von mises fisher
+sne	stochastic neighbor embedding	sentiment polarized node expansion	Semantic Network Extractor
+t sne	t distribute stochastic neighbor embedding
+vb	variational baye
+dcg	discount cumulative gain	Definite Clause Grammar
+nbt	neural belief tracker	Noisy Back Translation
+dtw	dynamic time warping
+sdp	shortest dependency path	semantic dependency parsing
+moe	mixture of expert	Misspelling Oblivious Embedding
+rkh	reproduce kernel hilbert space
+rkhs	reproduce kernel hilbert space
+imdb	internet movie database
+fsl	few shot learning
+omcs	open mind common sense
+dt	decision tree	distributional thesaurus	direct translation	discriminative training
+ltag	lexicalize tree adjoining grammar
+lcsr	long common subsequence ratio
+tbl	transformation base learning
+df	document frequency
+dct	document creation time	discrete cosine transform
+rae	recursive autoencoder
+ape	automatic post editing	absolute position encoding
+tsp	travel salesman problem	Translation Snippet Pair	Tree Structure Prediction
+rbm	restrict boltzmann machine	Reward based method	ranking based measure
+rte	recognize textual entailment	Relational Triple Extraction
+aan	acl anthology network	Adversarial Attention Network
+seat	sentence encoder association test
+ttr	type token ratio
+fst	finite state transducer	Formality style transfer
+fsts	finite state transducer
+dpr	dense passage retriever	Definite Pronoun Resolution
+ser	slot error rate	sentence error rate
+rnng	recurrent neural network grammar
+pomdps	partially observable markov decision process
+tsg	tree substitution grammar
+dbns	dynamic bayesian network	Deep Belief Network
+mt	machine translation	maltese	minimum tree	meteor	multi task	maptask
+patb	penn arabic treebank
+msa	multiple sequence alignment	Multimodal Sentiment Analysis	Modern Standard Arabic
+mesh	medical subject heading
+ge	generalize expectation	Graph embedding	gaussian embedding
+nnjm	neural network joint model
+lbp	loopy belief propagation	Labelled Berkeley Parser	lowest best probability
+bpr	bayesian personalize ranking	Binary Passage Retriever	Batch Prior Regularization
+nlm	neural language model	Neural Logic Machine
+nlms	neural language model
+anns	artificial neural network	Approximate Nearest Neighbor Search
+mil	multiple instance learning
+hre	hierarchical recurrent encoder	hierarchical reasoning engine
+san	self attention network	stochastic answer network	Syntax Aware Networks
+sans	self attention network	Structure Aware Negative Sampling	self adversarial negative sampling
+wow	wizard of wikipedia	Worldly Wise
+nvdm	neural variational document model
+bwe	bilingual word embedding
+bwes	bilingual word embedding
+irt	item response theory	Iterative Reinforce Training
+lof	local outlier factor
+msp	maximum softmax probability	masked span prediction	multimodal sentiment prediction	multi stage prompting
+jga	joint goal accuracy
+gyafc	yahoo answer formality corpus
+iat	implicit association test	Inverse Adversarial Training
+fmri	functional magnetic resonance imaging
+ict	inverse cloze task	in context tuning	improvement caching and tiling
+mml	maximum marginal likelihood	multi source meta learning
+cmlm	conditional mask language model
+cmlms	conditional mask language model
+da	decomposable attention	data augmentation	domain adaptation	deterministic annealing	direct assessment	dialectal arabic	dialog act
+ae	autoencoder	adaptive ensembling	absolute error
+aes	autoencoder	automated essay scoring
+sds	speak dialogue system	distributional semantic space	single document summarization
+btec	basic travel expression corpus
+irc	internet relay chat
+uima	unstructured information management architecture
+mnb	multinomial naive baye
+dan	deep averaging network	Dual Attention Networks	Domain Adversarial Network
+dans	deep averaging network
+cbt	Children book test	cognitive behavioral theory
+kbs	knowledge base
+wgan	wasserstein generative adversarial network
+rgcn	relational graph convolutional network
+rgcns	relational graph convolutional network
+r gcn	relational graph convolutional network
+qnli	question natural language inference
+kgc	knowledge graph completion
+clir	cross language information retrieval
+cmv	changemyview
+eda	easy data augmentation
+smn	sequential matching network
+icews	integrate crisis early warning system
+uid	uniform information density
+mnmt	multilingual neural machine translation
+msrp	microsoft research paraphrase corpus
+msrpc	microsoft research paraphrase corpus
+zsl	zero shot learning
+g 2 p	grapheme to phoneme
+prf	pseudo relevance feedback
+mrfs	markov random field
+icle	international corpus of learner english
+vln	vision and language navigation
+hsmm	hide semi markov model
+mlc	multi label classification
+dih	distributional inclusion hypothesis
+tvd	total variation distance
+drt	discourse representation theory
+dfa	deterministic finite automaton
+gcca	generalize canonical correlation analysis
+vqa	visual question answer
+ncrp	nest chinese restaurant process
+blstm	bidirectional long short term memory
+fever	fact extraction and verification
+arae	adversarially regularize autoencoder
+kld	kullback leibler divergence
+cws	chinese word segmentation
+bald	bayesian active learning by disagreement
+mnli	multi genre natural language inference
+dpp	determinantal point process
+rdf	resource description framework
+moocs	massive open online course
+fft	fast Fourier transform
+muc	message understanding conference
+mbl	memory base learning
+lcfrs	linear context free rewrite system
+smo	sequential minimal optimization
+aso	alternate structure optimization
+plsi	probabilistic latent semantic indexing
+trec	text retrieval conference
+wfst	weight finite state transducer
+wfsts	weight finite state transducer
+mllr	maximum likelihood linear regression
+bovw	bag of visual word
+rntn	recursive neural tensor network
+irl	inverse reinforcement learning
+plsr	partial least square regression
+iyas	interactive system for answer search
+drrn	deep reinforcement relevance network
+lorelei	low resource language for emergent incident
+drl	deep reinforcement learning
+rvnn	recursive neural network
+nnlm	neural network language model
+mag	microsoft academic graph
+bi lstm	bidirectional long short term memory
+bi lstms	bidirectional long short term memory
+blstms	bidirectional long short term memory
+bil stm	bidirectional long short term memory
+b lstm	bidirectional long short term memory
+bilstmcrf	bidirectional long short term memory conditional random field
+blstmcrf	bidirectional long short term memory conditional random field
+lstmlm	idirectional long short term memory language model
+lstmcrf	long short term memory conditional random field
+lstmrnn	long short term memory recurrent neural network
+stacklstm	stack long short term memory
+sif	smooth inverse frequency
+mfn	memory fusion network
+clwe	cross lingual word embedding
+clwes	cross lingual word embedding
+pas	predicate argument structure
+xnli	cross lingual natural language inference
+semi crf	semi markov conditional random field
+t 5	text to text transfer transformer
+tkgs	temporal knowledge graph
+olid	offensive language identification dataset
+fgv	fast gradient value
+stsb	semantic textual similarity benchmark
+bbc	british broadcasting corporation
+scst	self critical sequence training
+xlm r	cross lingual language model roberta
+xlm	cross lingual language model
+tfidf	term frequency inverse document frequency
+pbmt	phrase base machine translation
+dmn	dynamic memory network
+tsvm	transductive support vector machine
+p @	precision
+r @	recall
+zs	zero shot
+scws	stanford contextual word similarity
+r 2 r	room to room
+iornn	inside outside recursive neural network
+mv rnn	matrix vector recursive neural network
+grnn	gate recursive neural network
+fnn	feed forward
+fnns	feed forward
+pcnn	piecewise convolutional neural network
+pcnns	piecewise convolutional neural network
+bilm	bidirectional language model
+d 2 v	doc2vec
+hit	human intelligence task
+hits	human intelligence task
+gleu	generalized language evaluation understanding metric
+gelu	gaussian error linear unit
+e 2 e	end to end	entity to entity
+text 2 text	text to text
+hred	hierarchical recurrent encoder decoder
+wiki	wikipedia
+n 2 v	node2vec
+embed	embedding
+bi	 directional	bidirectional
+bi	bidirectional
+fuuency	fluency
+hugging face	huggingface
+tm	translation memory	translation matrix	time magazine	topic model	twitter model
+kn	kneser ney
+mos	mean opinion score	mixture of softmax
+baai	beijing academy of artificial intelligence
+f1 measure	f1 score
+f1 metric	f1 score
+f1 point	f1 score
+f1 value	f1 score
+f measure	f1 score
+f metric	f1 score
+f point	f1 score
+f value	f1 score
+fcore	f1 score
+f1	f1 score
+ble	bleu
+att	attention
+attn	attention
+re	recall	reduce	reward	relation extraction
+prec	precision
+ls	label smoothing	label smoothing	local search	least squares	long short term memory
+trm	transformer
+rc	recall	reading comprehension	robocup	
+rec	recall	recommendations	referring expression comprehension
+recl	recall
+t2t	tensor2tensor	tensor2tensor
+trs	transformer	trousers	task ranking scores
+conll	conference on computational natural language learning
+ne	named entity	named entity	named entity	network embedding	navigation error
+nlp	natural language processing
+avg	average
+lr	logistic regression	lexrank	linear regression	lagrangian relaxation	likelihood ratio	lattice rescoring	lattice rescoring	label regularization	loglikelihood ratio	lexical reordering
+arc	acl anthology reference corpus	ai2 reasoning challenge
+acl	Association for Computational Linguistics
+wmt	workshop on machine translation
+emnlp	Empirical Methods in Natural Language Processing
+naacl	North American Chapter of the Association for Computational Linguistics
