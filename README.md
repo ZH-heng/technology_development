@@ -64,7 +64,7 @@ A total of 534,500 entities were extracted, and the number of entities after nor
 
 "*z-score_calculation.ipynb*": After completing entity normalization, the co-occurrence networks are constructed based on papers for each year, and the z-scores of entities are calculated to measure their impact.The relevant resources can be found in the "data" folder.
 
-Entities with z-scores exceeding 2.5 are defined as high-impact technology-related entities. Since 2001, 179 high-impac new entities have emerged in the NLP field, and their complete list can be found in the file "./data/top-ents.csv".
+Entities with z-scores exceeding 2.5 are defined as high-impact technology-related entities. Since 2001, 179 high-impac new entities have emerged in the NLP field, and their complete list can be found in the file "*./data/top-ents.csv*".
 
 The top 5 entities for each type are as follows:
 
