@@ -39,7 +39,7 @@ Evaluation of models on our annotated dataset
 |SciBERT|85.95|86.13|86.04|
 |SciBERT+CRF|83.53|87.39|85.42|
 |SciBERT+BiLSTM (cascade)|86.22|86.76|86.49|
-|SciBERT+BiLSTM (cascade)+data_aug|86.82|87.18|87.00|
+|SciBERT+BiLSTM (cascade)+data_aug|86.82|87.18|**87.00**|
 
 Evaluation on SciERC and TDM dataset
 
