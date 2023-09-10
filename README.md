@@ -1,4 +1,4 @@
-### **Reveal Technology Evolution of NLP from the Scientific Entities Perspective**
+### Revealing the Technology Evolution of Natural Language Processing: A Scientific Entity-Centric Perspective
 
 ### 1. Technology-related entity recognition
 
