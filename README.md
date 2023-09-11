@@ -16,14 +16,14 @@ technology_evolution                               Root directory
 │   ├── ner-cascade.py                             Source code for the SciBERT+BiLSTM(cascade) model
 │   └── z-score_calculation .ipynb                 Source code for calculating impact of entities
 ├── Dataset                                        Dataset folder
-│   ├── mapping-list.txt
-│   ├── mdmt.parquet
-│   ├── paper-ents.parquet
-│   ├── pid2conf.txt
-│   ├── remove-words.txt
-│   ├── scierc.parquet
-│   ├── tdm.parquet
-│   └── top-ents.csv
+│   ├── mapping-list.txt                           "abbreviation-full name" mapping dictionary for entities
+│   ├── mdmt.parquet                               Our annotated dataset
+│   ├── paper-ents.parquet                         Extracted entities of papers
+│   ├── pid2conf.txt                               Dictionary of paper_id to its conference
+│   ├── remove-words.txt                           Words with little semantic contribution
+│   ├── scierc.parquet                             Open dataset SciERC
+│   ├── tdm.parquet                                Open dataset TDM
+│   └── top-ents.csv                               Full list of high-impact entities
 └── README.md
 </pre>
 
@@ -31,7 +31,7 @@ technology_evolution                               Root directory
 
 - **Dataset**
 
-"*./data/mdmt.parquet*": Parquet format. Our self-annotated dataset. As further research is required, we make available a portion of the data which includes 500 training samples, 100 validation samples, and 100 test samples. This dataset comprises three fields, namely 'word', 'label', and 'type'. The field 'type' is used to differentiate the trainset, validset, and testset. The entities we annotated consist of four types: method, dataset, metric, and tool.
+"*./Dataset/mdmt.parquet*": Parquet format. Our self-annotated dataset. As further research is required, we make available a portion of the data which includes 500 training samples, 100 validation samples, and 100 test samples. This dataset comprises three fields, namely 'word', 'label', and 'type'. The field 'type' is used to differentiate the trainset, validset, and testset. The entities we annotated consist of four types: method, dataset, metric, and tool.
 
 *word': ['According', 'to', 'Chen', 'et', 'al', '.', '(', '2016', ')', ',', 'Bilinear', 'outperforms', 'multi-layer', 'forward', 'neural', 'networks', 'in', 'relevance', 'measurement', '.']*
 
@@ -39,15 +39,15 @@ technology_evolution                               Root directory
 
 *'type': 'train'*
 
-"*./data/scierc.parquet*": The open dataset SciERC, consists of six entity types, namely, Task, Method, Metric, Material, Other-ScientificTerm, and Generic.
+"*./Dataset/scierc.parquet*": The open dataset SciERC, consists of six entity types, namely, Task, Method, Metric, Material, Other-ScientificTerm, and Generic.
 
-"*./data/tdm.parquet*": The open dataset TDM, defining three types of entities: Task, Dataset, and Metric.
+"*./Dataset/tdm.parquet*": The open dataset TDM, defining three types of entities: Task, Dataset, and Metric.
 
 - **Code**
 
-"*ner-base.py*": Code for baseline models.
+"*./Code/ner-base.py*": Code for baseline models.
 
-"*ner-cascade.py*": Code for the SciBERT+BiLSTM(cascade) model.
+"*./Code/ner-cascade.py*": Code for the SciBERT+BiLSTM(cascade) model.
 
 - **Model evaluation**
 
@@ -81,15 +81,15 @@ Evaluation on SciERC and TDM dataset
 
 ### 4. Entity normalization
 
-"*entity-normalization.ipynb*": Normalizing entities based on edit distance similarity and hierarchical clustering. The relevant resources can be found in the "data" folder.
+"*./Code/entity-normalization.ipynb*": Normalizing entities based on edit distance similarity and hierarchical clustering. The relevant resources can be found in the "data" folder.
 
 A total of 534,500 entities were extracted, and the number of entities after normalization was 268,392.  Subsequently, we filtered out entities with an annual frequency of less than 5, and ultimately obtained 37,624 valid technology-related entities. Each valid entity corresponds to a cluster in the clustering result. To verify the effectiveness of entity normalization, we randomly selected 1000 pairs of entities from these entity clusters and manually judged whether they belonged to the same entity. The precision metric, calculated based on the human reviews and the normalization results, was 91.30.
 
 ### 5. z-score calculation
 
-"*z-score_calculation.ipynb*": After completing entity normalization, the co-occurrence networks are constructed based on papers for each year, and the z-scores of entities are calculated to measure their impact.The relevant resources can be found in the "data" folder.
+"*./Code/z-score_calculation.ipynb*": After completing entity normalization, the co-occurrence networks are constructed based on papers for each year, and the z-scores of entities are calculated to measure their impact.The relevant resources can be found in the "Dataset" folder.
 
-Entities with z-scores exceeding 2.5 are defined as high-impact technology-related entities. Since 2001, 179 high-impac new entities have emerged in the NLP field, and their complete list can be found in the file "*./data/top-ents.csv*".
+Entities with z-scores exceeding 2.5 are defined as high-impact technology-related entities. Since 2001, 179 high-impac new entities have emerged in the NLP field, and their complete list can be found in the file "*./Dataset/top-ents.csv*".
 
 The top 5 entities for each type are as follows:
 
