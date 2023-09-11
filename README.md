@@ -39,9 +39,9 @@ technology_evolution                               Root directory
 
 *'type': 'train'*
 
-"*./Dataset/scierc.parquet*": The open dataset SciERC, consists of six entity types, namely, Task, Method, Metric, Material, Other-ScientificTerm, and Generic.
+"*./Dataset/scierc.parquet*": The open dataset SciERC, consists of six entity types, namely, Task, Method, Metric, Material, Other-ScientificTerm, and Generic. It contains 2687 sentences.
 
-"*./Dataset/tdm.parquet*": The open dataset TDM, defining three types of entities: Task, Dataset, and Metric.
+"*./Dataset/tdm.parquet*": The open dataset TDM, defining three types of entities: Task, Dataset, and Metric. It contains 2010 sentences.
 
 - **Code**
 
@@ -81,7 +81,7 @@ Evaluation on SciERC and TDM dataset
 
 ### 4. Entity normalization
 
-"*./Code/entity-normalization.ipynb*": Normalizing entities based on edit distance similarity and hierarchical clustering. The relevant resources can be found in the "data" folder.
+"*./Code/entity-normalization.ipynb*": Normalizing entities based on edit distance similarity and hierarchical clustering. The relevant resources can be found in the "Dataset" folder.
 
 A total of 534,500 entities were extracted, and the number of entities after normalization was 268,392.  Subsequently, we filtered out entities with an annual frequency of less than 5, and ultimately obtained 37,624 valid technology-related entities. Each valid entity corresponds to a cluster in the clustering result. To verify the effectiveness of entity normalization, we randomly selected 1000 pairs of entities from these entity clusters and manually judged whether they belonged to the same entity. The precision metric, calculated based on the human reviews and the normalization results, was 91.30.
 
