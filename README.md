@@ -8,7 +8,24 @@ This study analyzes the technology evolution of the NLP field from a scientific 
 
 ### 2. Directory structure
 
-
+<pre>
+technology_evolution                               Root directory
+├── Code                                           Source code folder
+│   ├── entity-normalization.ipynb                 Source code for entity normalization
+│   ├── ner-base.py                                Source code for baseline models
+│   ├── ner-cascade.py                             Source code for the SciBERT+BiLSTM(cascade) model
+│   └── z-score_calculation .ipynb                 Source code for calculating impact of entities
+├── Dataset                                        Dataset folder
+│   ├── mapping-list.txt
+│   ├── mdmt.parquet
+│   ├── paper-ents.parquet
+│   ├── pid2conf.txt
+│   ├── remove-words.txt
+│   ├── scierc.parquet
+│   ├── tdm.parquet
+│   └── top-ents.csv
+└── README.md
+</pre>
 
 ### 3. Technology-related entity recognition
 
