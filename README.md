@@ -4,7 +4,7 @@
 
 **Dataset and source code for paper "Revealing the Technology Evolution of Natural Language Processing: A Scientific Entity-Centric Perspective".**
 
-This study analyzes the technology evolution of the NLP field from a scientific entity perspective. This project includes relevant codes for entity recognition and datasets, along with programs for entity normalization and calculating entity influence.
+This study analyzes the technology evolution of the NLP field from a scientific entity perspective. This project includes relevant codes for entity recognition and datasets, along with programs for entity normalization and calculating entity impact.
 
 ### 2. Directory structure
 
@@ -108,5 +108,24 @@ The top 5 entities for each type are as follows:
 
 ### 6. Dependency packages
 
+<li>pytorch 2.0.1
 
+<li>transformers 4.28.1
 
+<li>pandas 2.0.0
+
+<li>pytorch-crf 0.7.2
+
+<li>tqdm 4.65.0
+
+<li>loguru 0.7.0
+
+<li>fasttext 0.9.2
+
+<li>flashtext 2.7
+
+<li>nltk 3.8.1
+
+<li>thefuzz 0.19.0
+
+<li>numpy 1.24.1
