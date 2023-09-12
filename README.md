@@ -35,26 +35,26 @@ technology_evolution                               Root directory
 
 This study encompasses three datasets: our self-annotated dataset and two open datasets, namely SciERC and TDM.
 
-<li><code>./Dataset/mdmt.parquet</code>  Parquet format. Our self-annotated dataset. As further research is required, we make available a portion of the data which includes 500 training samples, 100 validation samples, 100 test samples, and 2493 samples of data augmentation.This dataset comprises three fields, namely 'word', 'label', and 'type'. The field 'type' is used to differentiate the trainset, validset, and testset. The entities we annotated consist of four types: method, dataset, metric, and tool.
+  - <code>./Dataset/mdmt.parquet</code>  Parquet format. Our self-annotated dataset. As further research is required, we make available a portion of the data which includes 500 training samples, 100 validation samples, 100 test samples, and 2493 samples of data augmentation.This dataset comprises three fields, namely 'word', 'label', and 'type'. The field 'type' is used to differentiate the trainset, validset, and testset. The entities we annotated consist of four types: method, dataset, metric, and tool.
 <br/><code>'word': ['According', 'to', 'Chen', 'et', 'al', '.', '(', '2016', ')', ',', 'Bilinear', 'outperforms', 'multi-layer', 'forward', 'neural', 'networks', 'in', 'relevance', 'measurement', '.']</code>
 <br/><code>'label': ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'S-Method', 'O', 'B-Method', 'I-Method', 'I-Method', 'E-Method', 'O', 'O', 'O', 'O']</code>
 <br/><code>'type': 'train'</code>
 
 <li><code>./Dataset/scierc.parquet</code>  The open dataset SciERC, consists of six entity types, namely, Task, Method, Metric, Material, Other-ScientificTerm, and Generic. It contains 2687 sentences.
 
-<li><code>./Dataset/tdm.parquet</code>  The open dataset TDM, defining three types of entities: Task, Dataset, and Metric. It contains 2010 sentences.
+  - <code>./Dataset/tdm.parquet</code>  The open dataset TDM, defining three types of entities: Task, Dataset, and Metric. It contains 2010 sentences.
 
 ## 4. Quick Start
 
-<li><b>Technology-related entity recognition</b>
+  - <b>Technology-related entity recognition</b>
 <br/><code>python ./Code/ner-cascade.py</code>  Execute this command to run our best model: SciBERT+BiLSTM(cascade).
 <br/><code>python ./Code/ner-base.py</code>  Execute this command to run baseline models. Please utilize various pre-trained models by configuring the parameters in the <code>Config</code> class.
 
-<li><b>Entity normalization</b>
+  - <b>Entity normalization</b>
 <br/><code>./Code/entity-normalization.ipynb</code>  Execute the program step by step in a Jupyter Notebook. Normalizing entities based on edit distance similarity and hierarchical clustering. The relevant resources can be found in the <code>Dataset</code> folder.
 <br/>A total of 534,500 entities were extracted, and the number of entities after normalization was 268,392.  Subsequently, we filtered out entities with an annual frequency of less than 5, and ultimately obtained 37,624 valid technology-related entities. Each valid entity corresponds to a cluster in the clustering result. To verify the effectiveness of entity normalization, we randomly selected 1000 pairs of entities from these entity clusters and manually judged whether they belonged to the same entity. The precision metric, calculated based on the human reviews and the normalization results, was 91.30.
 
-<li><b>z-score calculation</b>
+  - <b>z-score calculation</b>
 <br/><code>./Code/z-score_calculation.ipynb</code>  Execute the program step by step in a Jupyter Notebook. After completing entity normalization, the co-occurrence networks are constructed based on papers for each year, and the z-scores of entities are calculated to measure their impact.The relevant resources can be found in the <code>Dataset</code> folder.
 
 ## 5. Evaluation of entity recognition
@@ -227,28 +227,18 @@ The top 5 entities for each type are as follows:
 </table>
 
 ## 7. Dependency packages
-
-<li>pytorch 2.0.1
-
-<li>transformers 4.28.1
-
-<li>pandas 2.0.0
-
-<li>pytorch-crf 0.7.2
-
-<li>tqdm 4.65.0
-
-<li>loguru 0.7.0
-
-<li>fasttext 0.9.2
-
-<li>flashtext 2.7
-
-<li>nltk 3.8.1
-
-<li>thefuzz 0.19.0
-
-<li>numpy 1.24.1
+System environment is set up according to the following configuration:
+- pytorch 2.0.1
+- transformers 4.28.1
+- pandas 2.0.0
+- pytorch-crf 0.7.2
+- tqdm 4.65.0
+- loguru 0.7.0
+- fasttext 0.9.2
+- flashtext 2.7
+- nltk 3.8.1
+- thefuzz 0.19.0
+- numpy 1.24.1
 
 ## Citation
 Please cite the following paper if you use this code and dataset in your work.
