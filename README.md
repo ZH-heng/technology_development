@@ -59,7 +59,7 @@ This study encompasses three datasets: our self-annotated dataset and two open d
 
 ## Evaluation of entity recognition
 
-Evaluation of models on our annotated dataset
+  - Evaluation of models on our annotated dataset
 
 |Model|P|R|F1|
 |-|-|-|-|
@@ -74,7 +74,7 @@ Evaluation of models on our annotated dataset
 |SciBERT+BiLSTM (cascade)|86.22|86.76|86.49|
 |SciBERT+BiLSTM (cascade)+data_aug|86.82|87.18|**87.00**|
 
-Evaluation on SciERC and TDM dataset
+  - Evaluation on SciERC and TDM dataset
 
 <table>
     <tr>
@@ -149,7 +149,7 @@ Evaluation on SciERC and TDM dataset
 
 Entities with z-scores exceeding 2.5 are defined as high-impact technology-related entities. Since 2001, 179 high-impac new entities have emerged in the NLP field, and their complete list can be found in the file "*./Dataset/top-ents.csv*".
 
-The top 5 entities for each type are as follows:
+  - The top 5 entities for each type are as follows:
 
 <table>
     <tr>
