@@ -5,7 +5,7 @@
 **Dataset and source code for paper "Revealing the Technology Evolution of Natural Language Processing: A Scientific Entity-Centric Perspective".**
 
 This study analyzes the technology evolution of the NLP field from a scientific entity perspective. Our work includes the followig aspects:
-- <li>We utilize pre-trained language models to identify technology-related entities. Additionally, we have developed a semi-supervised data augmentation technique to increase the number of training samples and improve the model's robustness. This approach has been demonstrated to enhance entity recognition accuracy, achieving an F1 score of 87.00 for the final model.
+<li>We utilize pre-trained language models to identify technology-related entities. Additionally, we have developed a semi-supervised data augmentation technique to increase the number of training samples and improve the model's robustness. This approach has been demonstrated to enhance entity recognition accuracy, achieving an F1 score of 87.00 for the final model.
 <li>We have developed a semi-automated approach to normalize entities extracted from papers, then randomly sample entity pairs for human judgment on whether they refer to the same entity, achieving a precision of 91.30.
 <li>Considering that researchers often combine different methods to address a research problem, we measure the impact of technology-related entities by constructing co-occurrence networks of them and computing their z-scores.
 <li>After completing the above preparation work, we analyze the annual changes in the number of entities, the situation of high-impact new entities, and the variations in the popularity degree and speed of top entities.
@@ -35,30 +35,20 @@ technology_evolution                               Root directory
 
 This study encompasses three datasets: our self-annotated dataset and two open datasets, namely SciERC and TDM.
 
-- <li><code>./Dataset/mdmt.parquet</code>  Parquet format. Our self-annotated dataset. As further research is required, we make available a portion of the data which includes 500 training samples, 100 validation samples, 100 test samples, and 2493 samples of data augmentation.This dataset comprises three fields, namely 'word', 'label', and 'type'. The field 'type' is used to differentiate the trainset, validset, and testset. The entities we annotated consist of four types: method, dataset, metric, and tool.
+<li><code>./Dataset/mdmt.parquet</code>  Parquet format. Our self-annotated dataset. As further research is required, we make available a portion of the data which includes 500 training samples, 100 validation samples, 100 test samples, and 2493 samples of data augmentation.This dataset comprises three fields, namely 'word', 'label', and 'type'. The field 'type' is used to differentiate the trainset, validset, and testset. The entities we annotated consist of four types: method, dataset, metric, and tool.
 <br/><code>'word': ['According', 'to', 'Chen', 'et', 'al', '.', '(', '2016', ')', ',', 'Bilinear', 'outperforms', 'multi-layer', 'forward', 'neural', 'networks', 'in', 'relevance', 'measurement', '.']</code>
+<br/><code>'label': ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'S-Method', 'O', 'B-Method', 'I-Method', 'I-Method', 'E-Method', 'O', 'O', 'O', 'O']</code>
+<br/><code>'type': 'train'</code>
 
-- **Dataset**
+<li><code>./Dataset/scierc.parquet</code>  The open dataset SciERC, consists of six entity types, namely, Task, Method, Metric, Material, Other-ScientificTerm, and Generic. It contains 2687 sentences.
 
-"*./Dataset/mdmt.parquet*": Parquet format. Our self-annotated dataset. As further research is required, we make available a portion of the data which includes 500 training samples, 100 validation samples, and 100 test samples. This dataset comprises three fields, namely 'word', 'label', and 'type'. The field 'type' is used to differentiate the trainset, validset, and testset. The entities we annotated consist of four types: method, dataset, metric, and tool.
+<li><code>./Dataset/tdm.parquet</code>  The open dataset TDM, defining three types of entities: Task, Dataset, and Metric. It contains 2010 sentences.
 
-*word': ['According', 'to', 'Chen', 'et', 'al', '.', '(', '2016', ')', ',', 'Bilinear', 'outperforms', 'multi-layer', 'forward', 'neural', 'networks', 'in', 'relevance', 'measurement', '.']*
+## 4. Quick Start
 
-*'label': ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'S-Method', 'O', 'B-Method', 'I-Method', 'I-Method', 'E-Method', 'O', 'O', 'O', 'O']*
 
-*'type': 'train'*
 
-"*./Dataset/scierc.parquet*": The open dataset SciERC, consists of six entity types, namely, Task, Method, Metric, Material, Other-ScientificTerm, and Generic. It contains 2687 sentences.
-
-"*./Dataset/tdm.parquet*": The open dataset TDM, defining three types of entities: Task, Dataset, and Metric. It contains 2010 sentences.
-
-- **Code**
-
-"*./Code/ner-base.py*": Code for baseline models.
-
-"*./Code/ner-cascade.py*": Code for the SciBERT+BiLSTM(cascade) model.
-
-- **Model evaluation**
+## 5. Evaluation of entity recognition
 
 Evaluation of models on our annotated dataset
 
