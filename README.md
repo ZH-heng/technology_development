@@ -40,7 +40,7 @@ This study encompasses three datasets: our self-annotated dataset and two open d
 <br/><code>'label': ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'S-Method', 'O', 'B-Method', 'I-Method', 'I-Method', 'E-Method', 'O', 'O', 'O', 'O']</code>
 <br/><code>'type': 'train'</code>
 
-<li><code>./Dataset/scierc.parquet</code>  The open dataset SciERC, consists of six entity types, namely, Task, Method, Metric, Material, Other-ScientificTerm, and Generic. It contains 2687 sentences.
+  - <code>./Dataset/scierc.parquet</code>  The open dataset SciERC, consists of six entity types, namely, Task, Method, Metric, Material, Other-ScientificTerm, and Generic. It contains 2687 sentences.
 
   - <code>./Dataset/tdm.parquet</code>  The open dataset TDM, defining three types of entities: Task, Dataset, and Metric. It contains 2010 sentences.
 
