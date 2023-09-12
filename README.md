@@ -1,6 +1,6 @@
 # Revealing the Technology Evolution of Natural Language Processing: A Scientific Entity-Centric Perspective
 
-## 1. Overview
+## Overview
 
 **Dataset and source code for paper "Revealing the Technology Evolution of Natural Language Processing: A Scientific Entity-Centric Perspective".**
 
@@ -10,7 +10,7 @@ This study analyzes the technology evolution of the NLP field from a scientific 
   - Considering that researchers often combine different methods to address a research problem, we measure the impact of technology-related entities by constructing co-occurrence networks of them and computing their z-scores.
   - After completing the above preparation work, we analyze the annual changes in the number of entities, the situation of high-impact new entities, and the variations in the popularity degree and speed of top entities.
 
-## 2. Directory structure
+## Directory structure
 
 <pre>
 technology_evolution                               Root directory
@@ -31,7 +31,7 @@ technology_evolution                               Root directory
 └── README.md
 </pre>
 
-## 3. Dataset Discription
+## Dataset Discription
 
 This study encompasses three datasets: our self-annotated dataset and two open datasets, namely SciERC and TDM.
 
@@ -44,7 +44,7 @@ This study encompasses three datasets: our self-annotated dataset and two open d
 
   - <code>./Dataset/tdm.parquet</code>  The open dataset TDM, defining three types of entities: Task, Dataset, and Metric. It contains 2010 sentences.
 
-## 4. Quick Start
+## Quick Start
 
   - <b>Technology-related entity recognition</b>
 <br/><code>python ./Code/ner-cascade.py</code>  Execute this command to run our best model: SciBERT+BiLSTM(cascade).
@@ -57,7 +57,7 @@ This study encompasses three datasets: our self-annotated dataset and two open d
   - <b>z-score calculation</b>
 <br/><code>./Code/z-score_calculation.ipynb</code>  Execute the program step by step in a Jupyter Notebook. After completing entity normalization, the co-occurrence networks are constructed based on papers for each year, and the z-scores of entities are calculated to measure their impact.The relevant resources can be found in the <code>Dataset</code> folder.
 
-## 5. Evaluation of entity recognition
+## Evaluation of entity recognition
 
 Evaluation of models on our annotated dataset
 
@@ -145,7 +145,7 @@ Evaluation on SciERC and TDM dataset
     </tr>
 </table>
 
-## 6. High-impact technology-related entities
+## High-impact technology-related entities
 
 Entities with z-scores exceeding 2.5 are defined as high-impact technology-related entities. Since 2001, 179 high-impac new entities have emerged in the NLP field, and their complete list can be found in the file "*./Dataset/top-ents.csv*".
 
@@ -226,7 +226,7 @@ The top 5 entities for each type are as follows:
     </tr>
 </table>
 
-## 7. Dependency packages
+## Dependency packages
 System environment is set up according to the following configuration:
 - pytorch 2.0.1
 - transformers 4.28.1
