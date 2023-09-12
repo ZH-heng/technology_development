@@ -18,7 +18,7 @@ technology_evolution                               Root directory
 │   ├── entity-normalization.ipynb                 Source code for entity normalization
 │   ├── ner-base.py                                Source code for baseline models
 │   ├── ner-cascade.py                             Source code for the SciBERT+BiLSTM(cascade) model
-│   └── z-score_calculation .ipynb                 Source code for calculating impact of entities
+│   └── z-score_calculation.ipynb                 Source code for calculating impact of entities
 ├── Dataset                                        Dataset folder
 │   ├── mapping-list.txt                           "abbreviation-full name" mapping dictionary for entities
 │   ├── mdmt.parquet                               Our annotated dataset
