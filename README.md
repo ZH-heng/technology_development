@@ -55,7 +55,7 @@ This study encompasses three datasets: our self-annotated dataset and two open d
     - A total of 534,500 entities were extracted, and the number of entities after normalization was 268,392.  Subsequently, we filtered out entities with an annual frequency of less than 5, and ultimately obtained 37,624 valid technology-related entities. Each valid entity corresponds to a cluster in the clustering result. To verify the effectiveness of entity normalization, we randomly selected 1000 pairs of entities from these entity clusters and manually judged whether they belonged to the same entity. The precision metric, calculated based on the human reviews and the normalization results, was 91.30.
 
   - <b>z-score calculation</b>
-<br/><code>./Code/z-score_calculation.ipynb</code>  Execute the program step by step in a Jupyter Notebook. After completing entity normalization, the co-occurrence networks are constructed based on papers for each year, and the z-scores of entities are calculated to measure their impact.The relevant resources can be found in the <code>Dataset</code> folder.
+    - <code>./Code/z-score_calculation.ipynb</code>  Execute the program step by step in a Jupyter Notebook. After completing entity normalization, the co-occurrence networks are constructed based on papers for each year, and the z-scores of entities are calculated to measure their impact.The relevant resources can be found in the <code>Dataset</code> folder.
 
 ## Evaluation of entity recognition
 
