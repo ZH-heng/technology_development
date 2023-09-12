@@ -48,7 +48,7 @@ This study encompasses three datasets: our self-annotated dataset and two open d
 
   - <b>Technology-related entity recognition</b>
     - <code>python ./Code/ner-cascade.py</code>  Execute this command to run our best model: SciBERT+BiLSTM(cascade).
-    - code>python ./Code/ner-base.py</code>  Execute this command to run baseline models. Please utilize various pre-trained models by configuring the parameters in the <code>Config</code> class.
+    - <code>python ./Code/ner-base.py</code>  Execute this command to run baseline models. Please utilize various pre-trained models by configuring the parameters in the <code>Config</code> class.
 
   - <b>Entity normalization</b>
     - <code>./Code/entity-normalization.ipynb</code>  Execute the program step by step in a Jupyter Notebook. Normalizing entities based on edit distance similarity and hierarchical clustering. The relevant resources can be found in the <code>Dataset</code> folder.
