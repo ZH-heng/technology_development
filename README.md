@@ -76,16 +76,7 @@ Evaluation of models on our annotated dataset
 
 Evaluation on SciERC and TDM dataset
 
-|**Dataset**|**Authors**|**Model**|**P**|**R**|**F1**|
-|-|-|-|-|-|-|
-|SciERC|Luan et al. (2018)|SCIIE| 67.20 | 61.50 | 64.20 |
-||Zhong and Chen (2021)|PURE||| 68.90 |
-||Eberts and Ulges (2021)|SpERT| 70.87 | 69.79 | 70.33 |
-||Zaratiana et al. (2022)|Hierarchical Transformer| 67.99 | 74.11 | **70.91** |
-||Our|SciBERT+BiLSTM (cascade)+data_aug| 66.95 | 71.49 | 69.14 |
-|TDM|Hou et al. (2021)|SCIIE| 67.17 | 58.27 | 62.40 |
-||Zaratiana et al. (2022)|Hierarchical Transformer| 65.56 | 70.21 | 67.81 |
-||Our|SciBERT+BiLSTM (cascade)+data_aug| 68.84 | 70.73 | **69.77** |
+<table><tr><td>Dataset</td><td>Authors</td><td>Model</td><td>P</td><td>R</td><td>F1</td></tr><tr><td>SciERC</td><td>Luan et al. (2018)</td><td>SCIIE</td><td>67.2</td><td>61.5</td><td>64.2</td></tr><tr><td></td><td>Zhong and Chen (2021)</td><td>PURE</td><td></td><td></td><td>68.9</td></tr><tr><td></td><td>Eberts and Ulges (2021)</td><td>SpERT</td><td>70.87</td><td>69.79</td><td>70.33</td></tr><tr><td></td><td>Zaratiana et al. (2022)</td><td>Hierarchical Transformer</td><td>67.99</td><td>74.11</td><td>70.91</td></tr><tr><td></td><td>Our</td><td>SciBERT+BiLSTM (cascade)+data_aug</td><td>66.95</td><td>71.49</td><td>69.14</td></tr><tr><td>TDM</td><td>Hou et al. (2021)</td><td>SCIIE</td><td>67.17</td><td>58.27</td><td>62.4</td></tr><tr><td></td><td>Zaratiana et al. (2022)</td><td>Hierarchical Transformer</td><td>65.56</td><td>70.21</td><td>67.81</td></tr><tr><td></td><td>Our</td><td>SciBERT+BiLSTM (cascade)+data_aug</td><td>68.84</td><td>70.73</td><td>69.77</td></tr></table>
 
 ## 6. High-impact technology-related entities
 
