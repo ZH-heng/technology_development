@@ -47,8 +47,15 @@ This study encompasses three datasets: our self-annotated dataset and two open d
 ## 4. Quick Start
 
 <li><b>Technology-related entity recognition</b>
-<br/><code>python ner-cascade.py</code>  Execute this command to run our best model: SciBERT+BiLSTM(cascade).
-<br/><code>python ner-base.py</code>  Execute this command to run baseline models. Please utilize various pre-trained models by configuring the parameters in the `Config` class.
+<br/><code>python ./Code/ner-cascade.py</code>  Execute this command to run our best model: SciBERT+BiLSTM(cascade).
+<br/><code>python ./Code/ner-base.py</code>  Execute this command to run baseline models. Please utilize various pre-trained models by configuring the parameters in the <code>Config</code> class.
+
+<li><b>Entity normalization</b>
+<br/><code>./Code/entity-normalization.ipynb</code>  Execute the program step by step in a Jupyter Notebook. Normalizing entities based on edit distance similarity and hierarchical clustering. The relevant resources can be found in the <code>Dataset</code> folder.
+<br/>A total of 534,500 entities were extracted, and the number of entities after normalization was 268,392.  Subsequently, we filtered out entities with an annual frequency of less than 5, and ultimately obtained 37,624 valid technology-related entities. Each valid entity corresponds to a cluster in the clustering result. To verify the effectiveness of entity normalization, we randomly selected 1000 pairs of entities from these entity clusters and manually judged whether they belonged to the same entity. The precision metric, calculated based on the human reviews and the normalization results, was 91.30.
+
+<li><b>z-score calculation</b>
+<br/><code>./Code/z-score_calculation.ipynb</code>  Execute the program step by step in a Jupyter Notebook. After completing entity normalization, the co-occurrence networks are constructed based on papers for each year, and the z-scores of entities are calculated to measure their impact.The relevant resources can be found in the <code>Dataset</code> folder.
 
 ## 5. Evaluation of entity recognition
 
