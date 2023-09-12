@@ -78,7 +78,7 @@ Evaluation on SciERC and TDM dataset
 
 <table>
     <tr>
-        <td>**Dataset**</td>
+        <td><b>Dataset</b></td>
         <td>**Authors**</td>
         <td>**Model**</td>
         <td>**P**</td>
