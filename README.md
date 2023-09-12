@@ -46,7 +46,9 @@ This study encompasses three datasets: our self-annotated dataset and two open d
 
 ## 4. Quick Start
 
-
+<li><b>Technology-related entity recognition</b>
+<br/><code>python ner-cascade.py</code>  Execute this command to run our best model: SciBERT+BiLSTM(cascade).
+<br/><code>python ner-base.py</code>  Execute this command to run baseline models. Please utilize various pre-trained models by configuring the parameters in the `Config` class.
 
 ## 5. Evaluation of entity recognition
 
