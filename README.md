@@ -106,7 +106,7 @@ The top 5 entities for each type are as follows:
 ||Twitter|5.3056||TensorFlow|3.5630|
 ||SST-2|5.2605||Stanford Parser|3.2967|
 
-## 6. Dependency packages
+## 7. Dependency packages
 
 <li>pytorch 2.0.1
 
