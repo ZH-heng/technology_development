@@ -79,11 +79,11 @@ Evaluation on SciERC and TDM dataset
 <table>
     <tr>
         <td><b>Dataset</b></td>
-        <td>**Authors**</td>
-        <td>**Model**</td>
-        <td>**P**</td>
-        <td>**R**</td>
-        <td>**F1**</td>
+        <td><b>Authors</b></td>
+        <td><b>Model</b></td>
+        <td><b>P</b></td>
+        <td><b>R</b></td>
+        <td><b>F1</b></td>
     </tr>
     <tr>
         <td rowspan="5">SciERC</td>
@@ -112,7 +112,7 @@ Evaluation on SciERC and TDM dataset
         <td>Hierarchical Transformer</td>
         <td>67.99</td>
         <td>74.11</td>
-        <td>70.91</td>
+        <td><b>70.91</b></td>
     </tr>
     <tr>
         <td>Our</td>
@@ -141,7 +141,7 @@ Evaluation on SciERC and TDM dataset
         <td>SciBERT+BiLSTM (cascade)+data_aug</td>
         <td>68.84</td>
         <td>70.73</td>
-        <td>69.77</td>
+        <td><b>69.77</b></td>
     </tr>
 </table>
 
@@ -151,18 +151,88 @@ Entities with z-scores exceeding 2.5 are defined as high-impact technology-relat
 
 The top 5 entities for each type are as follows:
 
-|**Type**|**Entity**|***z-score***|**Type**|**Entity**|***z-score***|
-|-|-|-|-|-|-|
-|Method|BERT|43.3138|Metric|BLEU|15.9303|
-||Transformer|34.6696||Cross-Entropy|13.1292|
-||LSTM|28.8231||ROUGE|7.8905|
-||Attention Mechanism|26.2604||Fluency|6.9009|
-||Adam|20.3561||Standard Deviation|6.1762|
-|Dataset|Wikipedia|17.4187|Tool|PyTorch|6.1565|
-||MNLI|6.7163||MOSES|5.3327|
-||SQuAD|5.7830||GIZA++|5.2089|
-||Twitter|5.3056||TensorFlow|3.5630|
-||SST-2|5.2605||Stanford Parser|3.2967|
+<table>
+    <tr>
+        <td><b>Type</b></td>
+        <td><b>Entity</b></td>
+        <td><b>z-score</b></td>
+        <td><b>Type</b></td>
+        <td><b>Entity</b></td>
+        <td><b>z-score</b></td>
+    </tr>
+    <tr>
+        <td rowspan="5">Method</td>
+        <td>BERT</td>
+        <td>43.3138</td>
+        <td>Metric</td>
+        <td>BLEU</td>
+        <td>15.9303</td>
+    </tr>
+    <tr>
+        <td>Transformer</td>
+        <td>34.6696</td>
+        <td></td>
+        <td>Cross-Entropy</td>
+        <td>13.1292</td>
+    </tr>
+    <tr>
+        <td>LSTM</td>
+        <td>28.8231</td>
+        <td></td>
+        <td>ROUGE</td>
+        <td>7.8905</td>
+    </tr>
+    <tr>
+        <td>Attention Mechanism</td>
+        <td>26.2604</td>
+        <td></td>
+        <td>Fluency</td>
+        <td>6.9009</td>
+    </tr>
+    <tr>
+        <td>Adam</td>
+        <td>20.3561</td>
+        <td></td>
+        <td>Standard Deviation</td>
+        <td>6.1762</td>
+    </tr>
+    <tr>
+        <td rowspan="5">Dataset</td>
+        <td>Wikipedia</td>
+        <td>17.4187</td>
+        <td>Tool</td>
+        <td>PyTorch</td>
+        <td>6.1565</td>
+    </tr>
+    <tr>
+        <td>MNLI</td>
+        <td>6.7163</td>
+        <td></td>
+        <td>MOSES</td>
+        <td>5.3327</td>
+    </tr>
+    <tr>
+        <td>SQuAD</td>
+        <td>5.783</td>
+        <td></td>
+        <td>GIZA++</td>
+        <td>5.2089</td>
+    </tr>
+    <tr>
+        <td>Twitter</td>
+        <td>5.3056</td>
+        <td></td>
+        <td>TensorFlow</td>
+        <td>3.563</td>
+    </tr>
+    <tr>
+        <td>SST-2</td>
+        <td>5.2605</td>
+        <td></td>
+        <td>Stanford Parser</td>
+        <td>3.2967</td>
+    </tr>
+</table>
 
 ## 7. Dependency packages
 
