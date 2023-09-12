@@ -164,35 +164,31 @@ The top 5 entities for each type are as follows:
         <td rowspan="5">Method</td>
         <td>BERT</td>
         <td>43.3138</td>
-        <td>Metric</td>
+        <td rowspan="5">Metric</td>
         <td>BLEU</td>
         <td>15.9303</td>
     </tr>
     <tr>
         <td>Transformer</td>
         <td>34.6696</td>
-        <td></td>
         <td>Cross-Entropy</td>
         <td>13.1292</td>
     </tr>
     <tr>
         <td>LSTM</td>
         <td>28.8231</td>
-        <td></td>
         <td>ROUGE</td>
         <td>7.8905</td>
     </tr>
     <tr>
         <td>Attention Mechanism</td>
         <td>26.2604</td>
-        <td></td>
         <td>Fluency</td>
         <td>6.9009</td>
     </tr>
     <tr>
         <td>Adam</td>
         <td>20.3561</td>
-        <td></td>
         <td>Standard Deviation</td>
         <td>6.1762</td>
     </tr>
@@ -200,35 +196,31 @@ The top 5 entities for each type are as follows:
         <td rowspan="5">Dataset</td>
         <td>Wikipedia</td>
         <td>17.4187</td>
-        <td>Tool</td>
+        <td rowspan="5">Tool</td>
         <td>PyTorch</td>
         <td>6.1565</td>
     </tr>
     <tr>
         <td>MNLI</td>
         <td>6.7163</td>
-        <td></td>
         <td>MOSES</td>
         <td>5.3327</td>
     </tr>
     <tr>
         <td>SQuAD</td>
         <td>5.783</td>
-        <td></td>
         <td>GIZA++</td>
         <td>5.2089</td>
     </tr>
     <tr>
         <td>Twitter</td>
         <td>5.3056</td>
-        <td></td>
         <td>TensorFlow</td>
         <td>3.563</td>
     </tr>
     <tr>
         <td>SST-2</td>
         <td>5.2605</td>
-        <td></td>
         <td>Stanford Parser</td>
         <td>3.2967</td>
     </tr>
