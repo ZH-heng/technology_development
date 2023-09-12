@@ -78,12 +78,12 @@ Evaluation on SciERC and TDM dataset
 
 <table>
     <tr>
-        <td>Dataset</td>
-        <td>Authors</td>
-        <td>Model</td>
-        <td>P</td>
-        <td>R</td>
-        <td>F1</td>
+        <td>**Dataset**</td>
+        <td>**Authors**</td>
+        <td>**Model**</td>
+        <td>**P**</td>
+        <td>**R**</td>
+        <td>**F1**</td>
     </tr>
     <tr>
         <td rowspan="5">SciERC</td>
@@ -122,7 +122,7 @@ Evaluation on SciERC and TDM dataset
         <td>69.14</td>
     </tr>
     <tr>
-        <td>TDM</td>
+        <td rowspan="3">TDM</td>
         <td>Hou et al. (2021)</td>
         <td>SCIIE</td>
         <td>67.17</td>
@@ -130,7 +130,6 @@ Evaluation on SciERC and TDM dataset
         <td>62.4</td>
     </tr>
     <tr>
-        <td></td>
         <td>Zaratiana et al. (2022)</td>
         <td>Hierarchical Transformer</td>
         <td>65.56</td>
@@ -138,7 +137,6 @@ Evaluation on SciERC and TDM dataset
         <td>67.81</td>
     </tr>
     <tr>
-        <td></td>
         <td>Our</td>
         <td>SciBERT+BiLSTM (cascade)+data_aug</td>
         <td>68.84</td>
