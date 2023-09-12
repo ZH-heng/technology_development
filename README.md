@@ -1,12 +1,12 @@
-### Revealing the Technology Evolution of Natural Language Processing: A Scientific Entity-Centric Perspective
+# Revealing the Technology Evolution of Natural Language Processing: A Scientific Entity-Centric Perspective
 
-### 1. Overview
+## 1. Overview
 
 **Dataset and source code for paper "Revealing the Technology Evolution of Natural Language Processing: A Scientific Entity-Centric Perspective".**
 
 This study analyzes the technology evolution of the NLP field from a scientific entity perspective. This project includes relevant codes for entity recognition and datasets, along with programs for entity normalization and calculating entity impact.
 
-### 2. Directory structure
+## 2. Directory structure
 
 <pre>
 technology_evolution                               Root directory
@@ -27,7 +27,7 @@ technology_evolution                               Root directory
 └── README.md
 </pre>
 
-### 3. Technology-related entity recognition
+## 3. Technology-related entity recognition
 
 - **Dataset**
 
@@ -79,13 +79,13 @@ Evaluation on SciERC and TDM dataset
 ||Zaratiana et al. (2022)|Hierarchical Transformer| 65.56 | 70.21 | 67.81 |
 ||Our|SciBERT+BiLSTM (cascade)+data_aug| 68.84 | 70.73 | **69.77** |
 
-### 4. Entity normalization
+## 4. Entity normalization
 
 "*./Code/entity-normalization.ipynb*": Normalizing entities based on edit distance similarity and hierarchical clustering. The relevant resources can be found in the "Dataset" folder.
 
 A total of 534,500 entities were extracted, and the number of entities after normalization was 268,392.  Subsequently, we filtered out entities with an annual frequency of less than 5, and ultimately obtained 37,624 valid technology-related entities. Each valid entity corresponds to a cluster in the clustering result. To verify the effectiveness of entity normalization, we randomly selected 1000 pairs of entities from these entity clusters and manually judged whether they belonged to the same entity. The precision metric, calculated based on the human reviews and the normalization results, was 91.30.
 
-### 5. z-score calculation
+## 5. z-score calculation
 
 "*./Code/z-score_calculation.ipynb*": After completing entity normalization, the co-occurrence networks are constructed based on papers for each year, and the z-scores of entities are calculated to measure their impact.The relevant resources can be found in the "Dataset" folder.
 
@@ -129,3 +129,8 @@ The top 5 entities for each type are as follows:
 <li>thefuzz 0.19.0
 
 <li>numpy 1.24.1
+
+## Citation
+Please cite the following paper if you use this code and dataset in your work.
+    
+>Heng Zhang, Chengzhi Zhang, Yuzhuo Wang. Revealing the Technology Evolution of Natural Language Processing: A Scientific Entity-Centric Perspective. ***Information Processing and Management***, 2023 (Under Review).
