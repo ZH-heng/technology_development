@@ -4,7 +4,11 @@
 
 **Dataset and source code for paper "Revealing the Technology Evolution of Natural Language Processing: A Scientific Entity-Centric Perspective".**
 
-This study analyzes the technology evolution of the NLP field from a scientific entity perspective. This project includes relevant codes for entity recognition and datasets, along with programs for entity normalization and calculating entity impact.
+This study analyzes the technology evolution of the NLP field from a scientific entity perspective. Our work includes the followig aspects:
+<li>We utilize pre-trained language models to identify technology-related entities. Additionally, we have developed a semi-supervised data augmentation technique to increase the number of training samples and improve the model's robustness. This approach has been demonstrated to enhance entity recognition accuracy, achieving an F1 score of 87.00 for the final model.
+<li>We have developed a semi-automated approach to normalize entities extracted from papers, then randomly sample entity pairs for human judgment on whether they refer to the same entity, achieving a precision of 91.30.
+<li>Considering that researchers often combine different methods to address a research problem, we measure the impact of technology-related entities by constructing co-occurrence networks of them and computing their z-scores.
+<li>After completing the above preparation work, we analyze the annual changes in the number of entities, the situation of high-impact new entities, and the variations in the popularity degree and speed of top entities.
 
 ## 2. Directory structure
 
