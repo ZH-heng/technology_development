@@ -31,7 +31,12 @@ technology_evolution                               Root directory
 └── README.md
 </pre>
 
-## 3. Technology-related entity recognition
+## 3. Dataset Discription
+
+This study encompasses three datasets: our self-annotated dataset and two open datasets, namely SciERC and TDM.
+
+<li><code>./Dataset/mdmt.parquet</code>Parquet format. Our self-annotated dataset. As further research is required, we make available a portion of the data which includes 500 training samples, 100 validation samples, 100 test samples, and 2493 samples of data augmentation.This dataset comprises three fields, namely 'word', 'label', and 'type'. The field 'type' is used to differentiate the trainset, validset, and testset. The entities we annotated consist of four types: method, dataset, metric, and tool.
+<code>'word': ['According', 'to', 'Chen', 'et', 'al', '.', '(', '2016', ')', ',', 'Bilinear', 'outperforms', 'multi-layer', 'forward', 'neural', 'networks', 'in', 'relevance', 'measurement', '.']</code>
 
 - **Dataset**
 
