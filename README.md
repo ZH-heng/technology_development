@@ -18,7 +18,7 @@ technology_evolution                               Root directory
 │   ├── entity-normalization.ipynb                 Source code for entity normalization
 │   ├── ner-base.py                                Source code for baseline models
 │   ├── ner-cascade.py                             Source code for the SciBERT+BiLSTM(cascade) model
-│   └── z-score_calculation.ipynb                 Source code for calculating impact of entities
+│   └── z-score_calculation.ipynb                  Source code for calculating impact of entities
 ├── Dataset                                        Dataset folder
 │   ├── mapping-list.txt                           "abbreviation-full name" mapping dictionary for entities
 │   ├── mdmt.parquet                               Our annotated dataset
@@ -40,9 +40,9 @@ This study encompasses three datasets: our self-annotated dataset and two open d
 <br/><code>'label': ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'S-Method', 'O', 'B-Method', 'I-Method', 'I-Method', 'E-Method', 'O', 'O', 'O', 'O']</code>
 <br/><code>'type': 'train'</code>
 
-  - <code>./Dataset/scierc.parquet</code>  The open dataset SciERC, consists of six entity types, namely, Task, Method, Metric, Material, Other-ScientificTerm, and Generic. It contains 2687 sentences.
+  - <code>./Dataset/scierc.parquet</code>  The open dataset SciERC, consists of six entity types, namely, Task, Method, Metric, Material, Other-ScientificTerm, and Generic. In total, it contains 2687 sentences. We additionally generated 1861 sentences using semi-supervised data augmentation techniques based on the training set.
 
-  - <code>./Dataset/tdm.parquet</code>  The open dataset TDM, defining three types of entities: Task, Dataset, and Metric. It contains 2010 sentences.
+  - <code>./Dataset/tdm.parquet</code>  The open dataset TDM, defining three types of entities: Task, Dataset, and Metric. In total, it contains 2010 sentences. We additionally generated 1371 sentences using semi-supervised data augmentation techniques based on the training set.
 
 ## Quick Start
 
