@@ -10,6 +10,12 @@ This study analyzes the technology evolution of the NLP field from a scientific 
   - Considering that researchers often combine different methods to address a research problem, we measure the impact of technology-related entities by constructing co-occurrence networks of them and computing their z-scores.
   - After completing the above preparation work, we analyze the annual changes in the number of entities, the situation of high-impact new entities, and the variations in the popularity degree and speed of top entities.
 
+## Main findings
+
+
+![image](https://github.com/ZH-heng/IMG/blob/main/technology_evolution/new_ent.png)
+
+
 ## Directory structure
 
 <pre>
