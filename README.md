@@ -11,10 +11,31 @@ This study analyzes the technology evolution of the NLP field from a scientific 
   - After completing the above preparation work, we analyze the annual changes in the number of entities, the situation of high-impact new entities, and the variations in the popularity degree and speed of top entities.
 
 ## Main findings
-  - We utilize pre-trained language models to identify technology-related entities. Additionally, we have developed a semi-supervised data augmentation technique to increase the number of training samples and improve the model's robustness. This approach has been demonstrated to enhance entity recognition accuracy, achieving an F1 score of 87.00 for the final model.
-![image](https://github.com/ZH-heng/IMG/blob/main/technology_evolution/new_ent.png)
-<img src="https://github.com/ZH-heng/IMG/blob/main/technology_evolution/new_ent.png" style="zoom:50%" />
+  - We count the number of new entities in NLP from 2001 to 2022, as depicted in Figure 1. We calculate the average number of new entities by dividing the total number of new entities each year by the number of papers published in that year. We depicte this information in the form of a bar graph on Figure 1, with the values aligned with the scale on the right y-axis.
+    - Since 2018, there has been a significant increase in the number of new entities, and each subsequent year has seen a much larger number of new entities than before 2018. Large-scale pre-trained models were introduced into the field of NLP around 2018, and their performance surpassed that of previous models.
+    - One factor that cannot be ignored in the growth of new entities is the significant increase in the number of NLP academic papers published in 2018 and beyond. However, upon examining the average number of new entities, it has been found to be higher since 2018 than before. So, we can to some extent control the impact of the growth in the papers number and confirm that <b>pre-trained language models have injected new vitality into the technological innovation of the NLP field.</b>
+<div align="center">
+<img src="https://github.com/ZH-heng/IMG/blob/main/technology_evolution/new_ent.png" width="800" height="400"/>
+</div>
+<div align="center"><b>Figure 1. Number of new technology-related entities each year</b></div>
 
+   - We plotted Figure 2 to examine the z-score evolution of the top 10 entities with the highest impact after their introduction into the NLP domain. It reveals that pre-trained language models, exemplified by BERT and Transformer, have become mainstream in recent years. Unlike the impact evolution patterns of the other eight method entities, the impact of Wikipedia dataset and BLEU metric has continued to rise in the long term.
+<div align="center">
+<img src="https://github.com/ZH-heng/IMG/blob/main/technology_evolution/top10_ents.png" width="900" height="525"/>
+</div>
+<div align="center"><b>Figure 2. z-score evolution of high-impact entities</b></div>
+
+   - We accumulate the z-scores of the top 100 high-impact new entities in different periods. As shown in Figure 3, <b>in recent years, the popularity of high-impact new technologies has far surpassed that of the past.</b>
+<div align="center">
+<img src="https://github.com/ZH-heng/IMG/blob/main/technology_evolution/cumulative_z.png" width="800" height="450"/>
+</div>
+<div align="center"><b>Figure 3. Cumulative z-score of top new entities in the N-th year after their appearance</b></div>
+
+   - The average time for new entities to reach a z-score>2.5 for different periods is presented in Figure 4. We can observe that the time required for top new entities to attain high impact is decreasing over time. <b>The popularity speed of high-impact new entities is accelerating.</b>
+<div align="center">
+<img src="https://github.com/ZH-heng/IMG/blob/main/technology_evolution/avg_year.png" width="800" height="450"/>
+</div>
+<div align="center"><b>Figure 4. Average years for new entities to reach z-score>2.5 in different periods</b></div>
 
 ## Directory structure
 
