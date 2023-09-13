@@ -11,9 +11,9 @@ This study analyzes the technology evolution of the NLP field from a scientific 
   - After completing the above preparation work, we analyze the annual changes in the number of entities, the situation of high-impact new entities, and the variations in the popularity degree and speed of top entities.
 
 ## Main findings
-
-
+  - We utilize pre-trained language models to identify technology-related entities. Additionally, we have developed a semi-supervised data augmentation technique to increase the number of training samples and improve the model's robustness. This approach has been demonstrated to enhance entity recognition accuracy, achieving an F1 score of 87.00 for the final model.
 ![image](https://github.com/ZH-heng/IMG/blob/main/technology_evolution/new_ent.png)
+<img src="https://github.com/ZH-heng/IMG/blob/main/technology_evolution/new_ent.png" style="zoom:50%" />
 
 
 ## Directory structure
