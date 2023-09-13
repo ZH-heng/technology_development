@@ -174,7 +174,7 @@ This study encompasses three datasets: our self-annotated dataset and two open d
 
 ## High-impact technology-related entities
 
-Entities with z-scores exceeding 2.5 are defined as high-impact technology-related entities. Since 2001, 179 high-impac new entities have emerged in the NLP field, and their complete list can be found in the file "*./Dataset/top-ents.csv*".
+Entities with z-scores exceeding 2.5 are defined as high-impact technology-related entities. Since 2001, 179 high-impac new entities have emerged in the NLP field, and their complete list can be found in the file <code>./Dataset/top-ents.csv</code>.
 
   - The top 5 entities for each type are as follows:
 
