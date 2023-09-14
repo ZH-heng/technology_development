@@ -33,7 +33,7 @@ This study analyzes the technology evolution of the NLP field from a scientific 
 
    - The average time for new entities to reach a z-score>2.5 for different periods is presented in Figure 4. We can observe that the time required for top new entities to attain high impact is decreasing over time. <b>The popularity speed of high-impact new entities is accelerating.</b>
 <div align="center">
-<img src="https://github.com/ZH-heng/IMG/blob/main/technology_evolution/avg_year.png" width=80% height=80%/>
+<img src="https://github.com/ZH-heng/IMG/blob/main/technology_evolution/avg_year.png" width=60% height=60%/>
 </div>
 <div align="center"><b>Figure 4. Average years for new entities to reach z-score>2.5 in different periods</b></div>
 
