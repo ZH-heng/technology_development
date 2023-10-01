@@ -270,4 +270,4 @@ System environment is set up according to the following configuration:
 ## Citation
 Please cite the following paper if you use this code and dataset in your work.
     
->Heng Zhang, Chengzhi Zhang, Yuzhuo Wang. Revealing the Technology Evolution of Natural Language Processing: A Scientific Entity-Centric Perspective. ***Information Processing and Management***, 2023 (Under Review).
+>Heng Zhang, Chengzhi Zhang\*, Yuzhuo Wang. Revealing the Technology Evolution of Natural Language Processing: A Scientific Entity-Centric Perspective. ***Information Processing and Management***, 2023 (Under Review).
