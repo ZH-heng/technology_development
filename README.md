@@ -1,10 +1,10 @@
-# Revealing the Technology Evolution of Natural Language Processing: A Scientific Entity-Centric Perspective
+# Revealing the Technology Development of Natural Language Processing: A Scientific Entity-Centric Perspective
 
 ## Overview
 
-**Dataset and source code for paper "Revealing the Technology Evolution of Natural Language Processing: A Scientific Entity-Centric Perspective".**
+**Dataset and source code for paper "Revealing the Technology Development of Natural Language Processing: A Scientific Entity-Centric Perspective".**
 
-This study analyzes the technology evolution of the NLP field from a scientific entity perspective. Our work includes the followig aspects:
+This study analyzes the technology development of the NLP field from a scientific entity perspective. Our work includes the followig aspects:
   - We utilize pre-trained language models to identify technology-related entities. Additionally, we have developed a semi-supervised data augmentation technique to increase the number of training samples and improve the model's robustness. This approach has been demonstrated to enhance entity recognition accuracy, achieving an F1 score of 87.00 for the final model.
   - We have developed a semi-automated approach to normalize entities extracted from papers, then randomly sample entity pairs for human judgment on whether they refer to the same entity, achieving a precision of 91.30.
   - Considering that researchers often combine different methods to address a research problem, we measure the impact of technology-related entities by constructing co-occurrence networks of them and computing their z-scores.
@@ -23,7 +23,7 @@ This study analyzes the technology evolution of the NLP field from a scientific 
 <div align="center">
 <img src="https://github.com/ZH-heng/IMG/blob/main/technology_evolution/top10_ents.png" width=80% height=80%/>
 </div>
-<div align="center"><b>Figure 2. z-score evolution of high-impact entities</b></div>
+<div align="center"><b>Figure 2. z-score trend of high-impact entities</b></div>
 
    - We accumulate the z-scores of the top 100 high-impact new entities in different periods. As shown in Figure 3, <b>in recent years, the popularity of high-impact new technologies has far surpassed that of the past.</b>
 <div align="center">
@@ -40,7 +40,7 @@ This study analyzes the technology evolution of the NLP field from a scientific 
 ## Directory structure
 
 <pre>
-technology_evolution                               Root directory
+technology_development                               Root directory
 ├── Code                                           Source code folder
 │   ├── entity-normalization.ipynb                 Source code for entity normalization
 │   ├── ner-base.py                                Source code for baseline models
