@@ -21,19 +21,19 @@ This study analyzes the technology development of the NLP field from a scientifi
 
    - We plotted Figure 2 to examine the z-score evolution of the top 10 entities with the highest impact after their introduction into the NLP domain. It reveals that pre-trained language models, exemplified by BERT and Transformer, have become mainstream in recent years. Unlike the impact evolution patterns of the other eight method entities, the impact of Wikipedia dataset and BLEU metric has continued to rise in the long term.
 <div align="center">
-<img src="https://github.com/ZH-heng/IMG/blob/main/technology_evolution/top10_ents_2.png" width=80% height=80%/>
+<img src="https://github.com/ZH-heng/ZH-heng.github.io/blob/main/images/top10_ents_2.png" width=80% height=80%/>
 </div>
 <div align="center"><b>Figure 2. z-score trend of high-impact entities</b></div>
 
    - We accumulate the z-scores of the top 100 high-impact new entities in different periods. As shown in Figure 3, <b>in recent years, the popularity of high-impact new technologies has far surpassed that of the past.</b>
 <div align="center">
-<img src="https://github.com/ZH-heng/IMG/blob/main/technology_evolution/cumulative_z_2.png" width=80% height=80%/>
+<img src="https://github.com/ZH-heng/ZH-heng.github.io/blob/main/images/cumulative_z_2.png" width=80% height=80%/>
 </div>
 <div align="center"><b>Figure 3. Cumulative z-score of top new entities in the N-th year after their appearance</b></div>
 
    - The average time for new entities to reach a z-score>2.5 for different periods is presented in Figure 4. We can observe that the time required for top new entities to attain high impact is decreasing over time. <b>The popularity speed of high-impact new entities is accelerating.</b>
 <div align="center">
-<img src="https://github.com/ZH-heng/IMG/blob/main/technology_evolution/avg_year_2.png" width=60% height=60%/>
+<img src="https://github.com/ZH-heng/ZH-heng.github.io/blob/main/images/avg_year_2.png" width=60% height=60%/>
 </div>
 <div align="center"><b>Figure 4. Average years for new entities to reach z-score>2.5 in different periods</b></div>
 
