@@ -15,7 +15,7 @@ This study analyzes the technology development of the NLP field from a scientifi
     - Since 2018, there has been a significant increase in the number of new entities, and each subsequent year has seen a much larger number of new entities than before 2018. Large-scale pre-trained models were introduced into the field of NLP around 2018, and their performance surpassed that of previous models.
     - One factor that cannot be ignored in the growth of new entities is the significant increase in the number of NLP academic papers published in 2018 and beyond. However, upon examining the average number of new entities, it has been found to be higher since 2018 than before. So, we can to some extent control the impact of the growth in the papers number and confirm that <b>pre-trained language models have injected new vitality into the technological innovation of the NLP field.</b>
 <div align="center">
-<img src="https://github.com/ZH-heng/ZH-heng.github.io/blob/main/images/new_ent.png" width=80% height=80%/>
+<img src="https://github.com/ZH-heng/ZH-heng.github.io/blob/main/images/new_ent_2.png" width=80% height=80%/>
 </div>
 <div align="center"><b>Figure 1. Number of new technology-related entities each year</b></div>
 
