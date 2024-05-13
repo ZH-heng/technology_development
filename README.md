@@ -40,7 +40,7 @@ This study analyzes the technology development of the NLP field from a scientifi
 ## Directory structure
 
 <pre>
-technology_development                               Root directory
+technology_development                             Root directory
 ├── Code                                           Source code folder
 │   ├── entity-normalization.ipynb                 Source code for entity normalization
 │   ├── ner-base.py                                Source code for baseline models
